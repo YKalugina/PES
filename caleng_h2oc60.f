@@ -19,7 +19,7 @@
       do i=1,91
       Eulang(3)=0.0d0+(i-1)*2.d0*Pi/180.d0
  
-      call caleng(com, energy, Eulang)
+      call caleng(com, energy, Eulang) !energy in Kelvin
       
       write(33,70)com,Eulang(1:3)*180.d0/Pi, energy
       
@@ -213,7 +213,7 @@ c      write(44,*)'j rch2  ',j, rch2, v
 
       enddo ! loop over C60
 
-      E_H2OC60=(v_colj+v_ch1lj+v_ch2lj)*kcal2k
+      E_H2OC60=(v_colj+v_ch1lj+v_ch2lj)*kcal2k  !energy in Kelvin
 c      write(44,*)'E_H2OC60=',E_H2OC60
 
       return
