@@ -46,6 +46,9 @@ c     the Euler angles describing the rotation of H2O
 c     input: com, rotmat, 
 c        ROwf, RH1wf, RH2wf, RCwf(C60)
 c     output: EH2OC60
+c     phi=Eulang(1)
+c     theta=Eulang(2)
+c     chi=Eulang(3)
 c     __________________________________________________
 c     rotmat, computed within the code with Eulang
 c     ROwf, RH1wf, RH2wf, RCwf put as data   
