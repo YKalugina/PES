@@ -29,7 +29,7 @@
       enddo
       enddo
       enddo
-  70  format(3F5.2,'  chi =',F5.1,'  the =',F5.1,'  phi =',F5.1,
+  70  format(3F5.2,'  phi =',F5.1,'  the =',F5.1,'  chi =',F5.1,
      + '  energy =', F18.2)
       end ! end program test
 
